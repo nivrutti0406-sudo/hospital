@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{
+              height: 50px;
+              width: 1520px;
+              background-color: aqua;
+              display: flex;
+              align-items: center;
+              justify-content: end;
+              gap: 15px;
+            background-image: url(navigating-min.jpg);
+            border: 2px solid black;
+              
+        }
+        .a{
+            text-decoration: none;
+            font-size: 20px;
+        }
+        form{
+            border-style: solid;
+            width: 200px;
+            padding: 30px;
+            padding-right: 10px;
+            border-radius: 20px;
+            margin: 100px;
+            background-color: aqua;
+            font-style: oblique;
+        }
+        input{
+            border-radius: 10px;
+            color: black;
+        }
+        body
+        {
+            background-image: url(fbb.jpg);
+        }
+        a{
+            text-decoration: none;
+            border-color: black;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <a href="home.html" class="a">home</a>
+        <a href="features.html" class="a">about</a>
+        <a href="registration.html" class="a">contact</a>
+     </div>
+    <br><br>
+           <h1>Fill the Appointment form</h1>
+               <p style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">Doctor Name:NS shiragire (heart specialist)</p>
+               <p style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">Doctor Name:SS Koli (Brain specialist)</p>
+               <p style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">Doctor Name:GB Borade (Bones specialist)</p>
+               
+               
+         
+                <form>
+            <input type="text"  placeholder="enter name here">
+            <br><br>
+            <textarea placeholder="enter your address" style="border-radius: 10px;" ></textarea>
+            <br>
+            <br>
+            <label for="date">Enter Date:</label>
+            <input type="date" id="date">
+            <br><br>
+            <label for="time">Enter time</label><br>
+            <input type="time"><br><br>
+            <input type="text" placeholder="enter age"><br><br>
+            <label for="gender">fill your gender:</label>
+            <br>Male:<input type="radio" name="gender" value="male">
+             <br>
+             Female:<input type="radio" name="gender" value="feamle"><br>
+             Other:<input type="radio" name="gender" value="Other"><br><br>
+             attach your previous reports<br>
+             <input type="file">
+             <br><br>
+             <input type="submit">
+
+
+        </form>
+    
+    
+</body>
+</html>
